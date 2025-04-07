@@ -1,0 +1,79 @@
+/* Diseño global */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #5a3e1b; /* Color marrón cálido */
+    background: url('https://via.placeholder.com/1200x800?text=Perro+con+pizza') no-repeat center center fixed; /* Agrega la imagen */
+    background-size: cover;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5rem;
+    color: #e74c3c; /* Rojo vibrante */
+}
+
+/* Contenedor del formulario */
+.formulario-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+.formulario-container h2 {
+    text-align: center;
+    color: #d35400;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #d35400;
+}
+
+/* Contenedor de la ruleta */
+.ruleta-container {
+    margin-top: 30px;
+}
+
+canvas {
+    border: 5px solid #e74c3c;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #27ae60; /* Verde cálido */
+}
